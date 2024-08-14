@@ -22,3 +22,7 @@ var SingeltonStudent = Student{
 	Name:  "AfterOffice",
 	Score: 99.9,
 }
+
+func Bisa(){
+	
+}
