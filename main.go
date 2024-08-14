@@ -16,7 +16,7 @@ func main() {
 	fmt.Println("hello 2");
 	fmt.Println("hello 3");
 	fmt.Println("=====\n")
-	// basics()
+	basics()
 
 	fmt.Println("sum3Number(1, 2, 3) =", sum3Number(1, 2, 3)) // 6
 	fmt.Println("sum3Number(3, 5, 7) =", sum3Number(3, 5, 7)) // 15
@@ -241,8 +241,8 @@ func merge2slices(slice1 []int, slice2 []int) []int {
 }
 
 func mergeToJSON(){
-	stu := model.Student{
-		Name: "Erwin",
-		Score: 12.345,
-	}
+	// stu := model.Student{
+	// 	Name: "Erwin",
+	// 	Score: 12.345,
+	// }
 }
